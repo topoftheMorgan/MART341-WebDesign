@@ -1,0 +1,7 @@
+What is a directory, and what is its relationship to files?
+    a file system hat keeps projects organized
+How are VCS useful?
+    it keeps track of the changes that made so its easier to back up to working code 
+Do you have a favorite artistic medium? Why is it your favorite?
+    I love physical drawing because i fell like i make few mistakes and i love the feel on pencil on paper. 
+    I also love digital drawing because then i can animate the bits and pieces of my drawing. :)
