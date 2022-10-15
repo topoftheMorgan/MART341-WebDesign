@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>
+            UM Golf Course
+        </title>
+
+        <!--Character Type-->
+        <meta charset="utf-8">
+        <!--description-->
+        <meta name="description" content="UM Golf Course info--">
+        <!--scale-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body {background-color: rgb(255, 255, 255);}
+            h1 {color: #70002e}
+            h2 {color: #70002e}
+        </style>
+    </head>
+    <body>
+        <img src="images/Course.jpg" width="600" alt="A picture of hole 3 at the Um Golf course">
+        <h1>
+            UM Golf Course
+        </h1>
+        <h2>
+            Contact
+        </h2>
+        <p><a href="canderson@mso.umt.edu">Send an email!</a></p>
+        <address>
+        University of Montana Golf Course<br />
+        515 South Ave E<br />
+        Missoula, MT 59801<br />
+        (406) 728-8629<br />
+        </address>
+
+        <!--Daily Fee Scedual-->
+        <h2>
+            Green Fees
+        </h2>
+        <tabel>
+            <tr>
+                <th>Group</th>
+            </tr>
+            <tr>
+                <td>General Public</td>
+                <td>Friday-Sunday</td>
+                <ul>
+                    <li>9 Holes - $19</li>
+                    <li>18 Holes - $34</li>
+                </ul>
+            </tr>
+            <tr>
+                <td>General Public</td>
+                <td>Monday-Thursday</td>
+                <ul>
+                    <li>9 Holes - $16</li>
+                    <li>18 Holes - $28</li>
+                </ul>
+            </tr>
+            <tr>
+                <td>UM Student</td>
+                <td>7 days a week</td>
+                <ul>
+                    <li>9 Holes - $14</li>
+                    <li>18 Holes - $24</li>
+                </ul>
+            </tr>
+        </tabel> 
+        <!--Season Passes-->
+        <h2>
+            Season Passes
+        </h2>
+        <tabel>
+            <tr>
+                <b>
+                    <td>UM Student</td>
+                </b>
+                <ul>
+                    <li>Junior - N/A</li>
+                    <li>Individual - $325</li>
+                    <li>Individual & Spouse - $500</li>
+                    <li>Family - $500 + $75 for each child</li>
+                </ul>
+
+            </tr>
+            <tr>
+                <b>
+                    <td>General Public</td>
+                </b>
+                <ul>
+                    <li>Junior - $175</li>
+                    <li>Individual - $540</li>
+                    <li>Individual & Spouse - $810</li>
+                    <li>Family - $810 + $75 for each child</li>
+                </ul>
+            </tr>
+        </tabel>
+        <!--Punch Cards-->
+        <h2>
+            Punch Cards
+        </h2>
+        <tabel>
+            <tr>
+                <b>
+                    <td>Unrestricted Green Fees</td>
+                </b>
+                <td>7 days a week</td>
+                <ul>
+                    <li>Ten punches, 9-hole rounds - $170</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Weekday Green Fees</td>
+                </b>
+                <td>Monday-Thursday</td>
+                <ul>
+                    <li>Ten punches, 9-hole rounds - $140</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>UM Student</td>
+                </b>
+                <td>7 days a week</td>
+                <ul>
+                    <li>Ten punches, 9-hole rounds - $120</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Range Balls</td>
+                </b>
+                <ul>
+                    <li>12 large buckets - $48</li>
+                </ul>
+            </tr>
+            <tr>
+                <b>
+                    <td>Power Cart</td>
+                </b>
+                <ul>
+                    <li>10 punches, 9-hole cart rental - $180</li>
+                </ul>
+            </tr>  
+        </tabel>
+        <!--Rental Fees-->
+        <h2>
+            Rental Fees
+        </h2>
+        <tabel>
+            <tr>
+                <b>
+                    <td>Club Rental</td>
+                </b>
+                <ul>
+                    <li>9 Holes - $6</li>
+                    <li>18 Holes - $9</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Pull Cart Rental</td>
+                </b>
+                <ul>
+                    <li>9 Holes - $3</li>
+                    <li>18 Holes - $5</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Power Cart Rental</td>
+                </b>
+                <ul>
+                    <li>9 Holes - $22</li>
+                    <li>18 Holes - $44</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Power Cart Rental (Single Rider)</td>
+                </b>
+                <ul>
+                    <li>9 Holes - $11</li>
+                    <li>18 Holes - $22</li>
+                </ul> 
+            </tr>
+            <tr>
+                <b>
+                    <td>Locker Rental</td>
+                </b>
+                <ul>
+                    <li>Small - $45</li>
+                    <li>Medium - $50</li>
+                    <li>Large - $55</li>
+                </ul> 
+            </tr>
+        </tabel>
+
+        <h1>
+            Questions?
+        </h1>
+        <!--inputs-->
+        <form method="POST" action="index.html">
+            Name:<br/>
+            <input type="text" id="name" placeholder="Enter your name" autofocus>
+            <p>
+            Updates?
+            <br/>
+            Yes <input type="radio" name="newsletter" id="newsletter" value="Y">
+            No <input type="radio" name="newsletter" id="newsletter" value="N">
+            <br />
+            <br/>
+            Comments
+            <br/>
+            <br/>
+            <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+            <br/>
+            <br/>
+            <button>Submit</button>
+            </p>
+
+         </form>
+
+    </body>
+</html>
