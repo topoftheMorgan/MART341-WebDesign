@@ -5,6 +5,6 @@ What are the advantages and disadvantages of using a third-party service like Yo
 They can reach a larger audiance without having to hand out the URL of a seperate website. It also can show up on peoples recomended because of the algorithms
 
 Optional: What challenges did you face this week with this assignment? How did you overcome them?
-I could not get the sound or video border to not get all chuncky even after putting them in their own div.
+I could not get the sound or video border to not get all chuncky even after putting them in their own div but, then I asked a question and got it all fixed. when coppied and pasted the linked code it added an extra div that i didn't need.
 
 ![Screenshot](./images/SS_8.png) 
