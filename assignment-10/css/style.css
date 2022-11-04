@@ -1,0 +1,67 @@
+body {
+    background-color: #69979a;
+    font-family: Didot;
+    text-align: center;
+  }
+  
+  div {
+    border: 5px solid #c0bfb2;
+    display: inline-block;
+  }
+  
+  img {
+    border-radius: 50%;
+    border: 10px solid #43689b;
+  }
+  
+  .inspiration {
+    background-color: #727272;
+    height: 700px;
+    width: 700px;
+    display: inline-block;
+  }
+  
+  #title {
+    font-size: 50px;
+    background-color: #c0bfb2;
+    color: #69979a;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .palette {
+    background-color: white;
+    width: 800px;
+  }
+  
+  .dot {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot.one {
+    background-color: #69979a;
+  }
+  
+  .dot.two {
+    background-color: #54672f;
+  }
+  
+  .dot.three {
+    background-color: #c0bfb2;
+  }
+  
+  .dot.four {
+    background-color: #9d8b5b;
+  }
+  
+  #square {
+    height: 100px;
+    width: 100px;
+    background-color: #c0bfb2;
+    display: inline-block;
+  }
+  
+  
