@@ -1,0 +1,17 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Abeezee';
+    src: url('../fonts/Abeezee.ttf') format('truetype');
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'AnekBangla';
+    src: url('../fonts/AnekBangla.ttf') format('truetype');
+    font-weight: 700;
+ }
+ 
+ @font-face {
+   font-family: 'Roboto';
+   src: url('../fonts/Roboto.ttf') format('truetype');
+   font-style: normal;
+}
